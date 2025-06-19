@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio de Chencho</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Juan Ángel Jasso Sánchez — Programador</h1>
+      <p>Desarrollo web, móvil y servidores Linux</p>
+    </header>
+
+    <section class="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy programador con experiencia práctica en el desarrollo de sistemas
+        reales. He desarrollado plataformas web, aplicaciones Android, y
+        servidores autoalojados con Ubuntu Server sobre Raspberry Pi. Mis
+        aplicaciones se comunican por HTTP usando archivos PHP y bases de datos
+        MySQL.
+      </p>
+    </section>
+
+    <section class="proyectos">
+      <h2>Proyectos destacados</h2>
+
+      <div class="proyecto">
+        <h3>📦 Sistema de Gestión de Inventarios</h3>
+        <ul>
+          <li>
+            Aplicación Android conectada por HTTP a servidor en Raspberry Pi
+          </li>
+          <li>Backend en PHP + MySQL, frontend web con HTML/CSS/JS</li>
+          <li>
+            Servidor propio con Ubuntu Server, Apache2, MariaDB y phpMyAdmin
+          </li>
+        </ul>
+        <div class="gallery-carousel">
+          <button class="nav-button" id="prev">&#9664;</button>
+          <img
+            id="carousel-image"
+            src="images/mainui.jpeg"
+            alt="Captura de pantalla del sistema"
+          />
+          <button class="nav-button" id="next">&#9654;</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal" id="modal">
+      <span class="close" id="close">&times;</span>
+      <img class="modal-content" id="modal-image" />
+      <div id="caption"></div>
+    </div>
+
+    <script src="gallery.js"></script>
+
+    <section class="habilidades">
+      <h2>Habilidades técnicas</h2>
+      <ul>
+        <li>Lenguajes: PHP, Java (Android), JavaScript, HTML, CSS</li>
+        <li>Base de datos: MySQL</li>
+        <li>Herramientas: Git, Android Studio, VS Code</li>
+        <li>Servidores: Ubuntu Server, Apache2, PHP, FileZilla, SSH</li>
+      </ul>
+    </section>
+
+    <section class="contacto">
+      <h2>Contacto</h2>
+      <p>Email: juanangeljassosanchz@gmail.com</p>
+      <p>
+        GitHub:
+        <a href="https://github.com/Angelo7w7" target="_blank"
+          >github.com/Angelo7w7</a
+        >
+      </p>
+      <!--
+    <p>LinkedIn: <a href="https://linkedin.com/in/" target="_blank">linkedin.com/in/</a></p>
+    --></section>
+
+    <footer>
+      <p>
+        &copy; 2025 Juan Ángel Jasso Sánchez. Todos los derechos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
